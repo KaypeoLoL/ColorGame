@@ -17,8 +17,6 @@ h1
     font-size: 200%
 nav
   background-color: white
-  #message
-    color: #232323
   #stripe
     background-color: white
     height: 30px
@@ -26,8 +24,10 @@ nav
     max-width: 600px
     margin: auto
     #message
+      color: #232323
       display: inline-block
       width: 20%
+      height: 50%
     button
       border: none
       background-color: white
@@ -59,3 +59,10 @@ nav
     border-radius: 20%
     margin-bottom: 10px
     transition: background .4s
+
+@media screen and (max-width: 435px)
+  h1
+    span
+      font-size: 120%
+  #message
+    font-size: 10px
