@@ -4,30 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
 <header>
-  <h1>The great <span>RGB</span> guessing game</h1>
+  <h1>The great <br><span>RGB</span><br> guessing game</h1>
   <nav>
-    <div class="container">
-      <a href="">new colors</a>
-      <a href="">Easy</a>
-      <a href="">Hard</a>
+
+    <div id="stripe">
+      <button id="reset">New Colors</button>
+      <span id="message"></span>
+      <button class="mode">Easy</button>
+      <button class="mode selected">Hard</button>
     </div>
 
   </nav>
 
 </header>
-  <div class="container">
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-  </div>
+
+<div class="container">
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</div>
 
 <script type="text/javascript" src="app.js"></script>
 </body>
